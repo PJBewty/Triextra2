@@ -8,6 +8,10 @@ app = Flask(__name__)
 def test_request():
     return "สวัสดีๆๆๆ"
 
+@app.rute("/netpie")
+def read_data():
+    return "NETPIE"
+
 
 
 
